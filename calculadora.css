@@ -1,0 +1,58 @@
+body {
+    background-color: #333;
+    color: #EEE;
+    width: 80%;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+.form-label {
+    display: block;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.form-text {
+    display: block;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1.125rem;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    border: none;
+    outline: none;
+    background-color: #666;
+    color: lime;
+}
+
+.botao {
+    background: none;
+    width: 200px;
+    font-size: 1.125rem;
+    padding: 0.3rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.botao-enviar {
+    border: 1px solid lime;
+    color: lime;
+}
+
+.botao-limpar {
+    border: 1px solid #999;
+    color: #999;
+}
+
+.botao:hover {
+    background-color: #000;
+}
+
+.resultado {
+    font-size:1.5rem;
+}
+
+a.botao {
+    display: block;
+}
